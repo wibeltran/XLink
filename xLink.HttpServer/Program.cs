@@ -45,6 +45,7 @@ namespace xLinkServer
                 set.Save();
             }
 
+
 #if !DEBUG
             var set2 = XCode.Setting.Current;
             if (set2.IsNew)
